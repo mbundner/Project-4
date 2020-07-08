@@ -1,43 +1,44 @@
 const names = ["Bart Simpson", "Marge Simpson", "Montgomery Burns", "Maggie Simpson", "Ned Flanders",
                "Jimbo Jones", "Milhouse", "Troy McClure", "Apu", "Reverend Lovejoy", "Barney", "Chief Wiggum",
-               "Princical Skinner", "Smithers", "Sideshow Bob", "Abe Simpson","Bleeding Gums Murphy",
+               "Princical Skinner", "Lisa", "Smithers", "Sideshow Bob", "Abe Simpson","Bleeding Gums Murphy",
                "Homer Simpson", "Nelson Muntz" ]
 
+let images = document.querySelectorAll(".image")
+//console.log(images)
+let tops = document.querySelectorAll(".top")
+//console.log(tops)
 
-
-
-
-
-
-
-
-/*
-let topRow = document.querySelector(".top")
-//console.log(topRow)
-    
-let button = document.createElement("button")
+for(let i=0; i<images.length; i++){
+    let p = document.createElement("paragraph")
     let br = document.createElement("br")
-    button.classList.add("button")
-    button.innerText = "who is this?"
-    topRow.appendChild(br)
-    topRow.appendChild(button)
-    let br2 = document.createElement("br")
-    
-    
-   
-    button.addEventListener("click", revealName)
-    
-    function revealName(e){
-      e.preventDefault()
-      p = document.createElement("paragraph")
-      p.classList.add("text")
-      p.innerText = names[0]
-      topRow.appendChild(br2)
-      topRow.appendChild(p)
+    p.innerHTML = names[i]
+    images[i].addEventListener("click", revealName)
       
+    function revealName(e){
+       e.preventDefault()
+       tops[i].appendChild(br)
+       tops[i].appendChild(p)
     }
+    
+}
+    
+/*
+images[i].addEventListener("click", revealName)
+      function revealName(e){
+          e.preventDefault()
+          console.log(e)
 
 */
+
+
+
+
+   /*
+
+    
+    
+*/
+
 
 
 
@@ -88,7 +89,7 @@ for(let i=0; i<bottomRow.length; i++){
     
 }
 */
-
+/*
 let correct = document.querySelector("#correct")
 //console.log(correct)
 
@@ -99,5 +100,6 @@ function incrementUp(e){
     score = document.querySelector("#score").innerHTML
     score++
     document.querySelector("#score").innerHTML = score
-
+    alert("You guessed right!")
 }
+*/

@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color:white;
 }
 
 h2 {
@@ -16,13 +16,7 @@ h2 {
 }
 
 .top {
-    border: thin solid black;
-}
-.middle {
-    border: thin solid black;
-}
-.bottom {
-    border: thin solid black;
+    
 }
 .button {
     margin-left: 24px;
@@ -32,8 +26,9 @@ p {
     margin-top: 0;
 }
 .button {
-    margin-bottom: 50px;
+    
 }
 
-.text {
+#correct {
+    margin-bottom: 20px;
 }
