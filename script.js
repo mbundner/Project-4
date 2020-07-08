@@ -1,5 +1,8 @@
-let title = document.querySelector("h1")
+let topRow = document.querySelectorAll(".top")
+let middleRow = document.querySelectorAll(".middle")
+let bottomRow = document.querySelectorAll(".bottom")
 
-console.log(title)
+console.log(topRow)
+console.log(middleRow)
+console.log(bottomRow)
 
-let homer = querySelector(".homer")

@@ -1,11 +1,16 @@
+body {
+    background-color: blue;
+}
+
 h1 {
     text-align: center;
-    color: blue;
+    color: black;
     font-size: 50px;
 }
 
 .top {
     display: inline;
+    
     
 }
 .middle {
@@ -14,4 +19,26 @@ h1 {
 
 .bottom  {
     display: inline;
+}
+
+#bart {
+    border: thin solid black;
+}
+#marge{
+    border: thin solid black;
+}
+#burns{
+    border: thin solid black;
+}
+#maggie{
+    border: thin solid black;
+}
+#ned{
+    border: thin solid black;
+}
+#jimbo{
+    border: thin solid black;
+}
+#milhouse{
+    border: thin solid black;
 }
