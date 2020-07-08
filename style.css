@@ -2,24 +2,23 @@ body {
     background-color: blue;
 }
 
-h1 {
+h3 {
     text-align: center;
     color: black;
     font-size: 50px;
 }
 
-.top {
-    display: inline;
-    
-    
-}
-.middle {
-    display: inline;
+.allCharacters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.bottom  {
-    display: inline;
-}
+
+
+
+
+
 
 #bart {
     border: thin solid black;
