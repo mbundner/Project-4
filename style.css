@@ -5,7 +5,8 @@ body {
 h3 {
     text-align: center;
     color: black;
-    font-size: 50px;
+
+
 }
 
 .allCharacters {
@@ -14,30 +15,15 @@ h3 {
     justify-content: space-around;
 }
 
+.top {
+    border: thin solid black;
+}
+.middle {
+    border: thin solid black;
+}
+.bottom {
+    border: thin solid black;
+}
 
 
 
-
-
-
-#bart {
-    border: thin solid black;
-}
-#marge{
-    border: thin solid black;
-}
-#burns{
-    border: thin solid black;
-}
-#maggie{
-    border: thin solid black;
-}
-#ned{
-    border: thin solid black;
-}
-#jimbo{
-    border: thin solid black;
-}
-#milhouse{
-    border: thin solid black;
-}
