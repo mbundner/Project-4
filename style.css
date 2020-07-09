@@ -2,7 +2,7 @@ body {
     background-color:green;
 }
 
-h2 {
+h1 {
     text-align: center;
     color: black;
 
@@ -31,4 +31,5 @@ p {
 
 #correct {
     margin-bottom: 20px;
+    margin-top: 5px;
 }
