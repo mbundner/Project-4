@@ -40,7 +40,7 @@ function incrementUp(e){
     score = document.querySelector("#score").innerHTML
     score++
     document.querySelector("#score").innerHTML = score
-    //alert("You guessed right! Good job!")
+    alert("You guessed right! Good job!")
 }
 
 //created another button for the player to click when they guess wrong or don't know
@@ -55,6 +55,6 @@ function incrementUp2(e){
     score2 = document.querySelector("#score2").innerHTML
     score2++
     document.querySelector("#score2").innerHTML = score2
-    //alert("Sorry, that isn't right")
+    alert("Sorry, that isn't right")
 }
 

@@ -8,7 +8,7 @@ the popular animated tv series The Simpsons.
 HOW TO PLAY
 
 1. Once the page has loaded, you're ready to begin.
-2. Starting with the top left image and working your way across and down, see if you
+2. Starting with the top left image and working your way across and down,    see if you
    can name each character by their picture. There are 30 images total.
 3. If you know the character's name, you click the blue "Correct Guess" button at the top left of
    the page and an alert will notify you that you've guessed correctly. Upon clicking 

@@ -41,3 +41,9 @@ p {
 #incorrect {
     color: red;
 }
+.logo {
+    margin: 0 auto 0 auto;
+}
+.trivia {
+    margin-top: 0px;
+}
