@@ -22,4 +22,6 @@ HOW TO PLAY
    you increment your correct/incorrect score to see if you were right before moving on.
 6. At the end of the game your correct and incorrect guesses should add up to 30. If not,
    go back and see who you missed.
-7. Good luck and have fun!
+7. Should you want to restart the game, simply hit the refresh button at the top left   
+   of the page.
+8. Good luck and have fun!
